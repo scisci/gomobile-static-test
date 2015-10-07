@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A8CC0D41BC5B97300063773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC0D31BC5B97300063773 /* AppDelegate.swift */; };
+		8A8CC0D61BC5B97300063773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC0D51BC5B97300063773 /* ViewController.swift */; };
+		8A8CC0D91BC5B97300063773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A8CC0D71BC5B97300063773 /* Main.storyboard */; };
+		8A8CC0DB1BC5B97300063773 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A8CC0DA1BC5B97300063773 /* Images.xcassets */; };
+		8A8CC0DE1BC5B97300063773 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8CC0DC1BC5B97300063773 /* LaunchScreen.xib */; };
+		8A8CC0EA1BC5B97300063773 /* gomobile_static_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8CC0E91BC5B97300063773 /* gomobile_static_testTests.swift */; };
+		8A8CC0F41BC5C48700063773 /* lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8CC0F31BC5C48700063773 /* lib.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A8CC0E41BC5B97300063773 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A8CC0C61BC5B97300063773 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A8CC0CD1BC5B97300063773;
+			remoteInfo = "gomobile-static-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A8CC0CE1BC5B97300063773 /* gomobile-static-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gomobile-static-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8CC0D21BC5B97300063773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8CC0D31BC5B97300063773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A8CC0D51BC5B97300063773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A8CC0D81BC5B97300063773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A8CC0DA1BC5B97300063773 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A8CC0DD1BC5B97300063773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8A8CC0E31BC5B97300063773 /* gomobile-static-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gomobile-static-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8CC0E81BC5B97300063773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A8CC0E91BC5B97300063773 /* gomobile_static_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gomobile_static_testTests.swift; sourceTree = "<group>"; };
+		8A8CC0F31BC5C48700063773 /* lib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lib.framework; path = ../lib/lib.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A8CC0CB1BC5B97300063773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8CC0F41BC5C48700063773 /* lib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8CC0E01BC5B97300063773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A8CC0C51BC5B97300063773 = {
+			isa = PBXGroup;
+			children = (
+				8A8CC0F31BC5C48700063773 /* lib.framework */,
+				8A8CC0D01BC5B97300063773 /* gomobile-static-test */,
+				8A8CC0E61BC5B97300063773 /* gomobile-static-testTests */,
+				8A8CC0CF1BC5B97300063773 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A8CC0CF1BC5B97300063773 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC0CE1BC5B97300063773 /* gomobile-static-test.app */,
+				8A8CC0E31BC5B97300063773 /* gomobile-static-testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A8CC0D01BC5B97300063773 /* gomobile-static-test */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC0D31BC5B97300063773 /* AppDelegate.swift */,
+				8A8CC0D51BC5B97300063773 /* ViewController.swift */,
+				8A8CC0D71BC5B97300063773 /* Main.storyboard */,
+				8A8CC0DA1BC5B97300063773 /* Images.xcassets */,
+				8A8CC0DC1BC5B97300063773 /* LaunchScreen.xib */,
+				8A8CC0D11BC5B97300063773 /* Supporting Files */,
+			);
+			path = "gomobile-static-test";
+			sourceTree = "<group>";
+		};
+		8A8CC0D11BC5B97300063773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC0D21BC5B97300063773 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A8CC0E61BC5B97300063773 /* gomobile-static-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC0E91BC5B97300063773 /* gomobile_static_testTests.swift */,
+				8A8CC0E71BC5B97300063773 /* Supporting Files */,
+			);
+			path = "gomobile-static-testTests";
+			sourceTree = "<group>";
+		};
+		8A8CC0E71BC5B97300063773 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CC0E81BC5B97300063773 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A8CC0CD1BC5B97300063773 /* gomobile-static-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8CC0ED1BC5B97300063773 /* Build configuration list for PBXNativeTarget "gomobile-static-test" */;
+			buildPhases = (
+				8A8CC0CA1BC5B97300063773 /* Sources */,
+				8A8CC0CB1BC5B97300063773 /* Frameworks */,
+				8A8CC0CC1BC5B97300063773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gomobile-static-test";
+			productName = "gomobile-static-test";
+			productReference = 8A8CC0CE1BC5B97300063773 /* gomobile-static-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A8CC0E21BC5B97300063773 /* gomobile-static-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A8CC0F01BC5B97300063773 /* Build configuration list for PBXNativeTarget "gomobile-static-testTests" */;
+			buildPhases = (
+				8A8CC0DF1BC5B97300063773 /* Sources */,
+				8A8CC0E01BC5B97300063773 /* Frameworks */,
+				8A8CC0E11BC5B97300063773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A8CC0E51BC5B97300063773 /* PBXTargetDependency */,
+			);
+			name = "gomobile-static-testTests";
+			productName = "gomobile-static-testTests";
+			productReference = 8A8CC0E31BC5B97300063773 /* gomobile-static-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A8CC0C61BC5B97300063773 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = scisci;
+				TargetAttributes = {
+					8A8CC0CD1BC5B97300063773 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8A8CC0E21BC5B97300063773 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8A8CC0CD1BC5B97300063773;
+					};
+				};
+			};
+			buildConfigurationList = 8A8CC0C91BC5B97300063773 /* Build configuration list for PBXProject "gomobile-static-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A8CC0C51BC5B97300063773;
+			productRefGroup = 8A8CC0CF1BC5B97300063773 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A8CC0CD1BC5B97300063773 /* gomobile-static-test */,
+				8A8CC0E21BC5B97300063773 /* gomobile-static-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A8CC0CC1BC5B97300063773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8CC0D91BC5B97300063773 /* Main.storyboard in Resources */,
+				8A8CC0DE1BC5B97300063773 /* LaunchScreen.xib in Resources */,
+				8A8CC0DB1BC5B97300063773 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8CC0E11BC5B97300063773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A8CC0CA1BC5B97300063773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8CC0D61BC5B97300063773 /* ViewController.swift in Sources */,
+				8A8CC0D41BC5B97300063773 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A8CC0DF1BC5B97300063773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8CC0EA1BC5B97300063773 /* gomobile_static_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A8CC0E51BC5B97300063773 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A8CC0CD1BC5B97300063773 /* gomobile-static-test */;
+			targetProxy = 8A8CC0E41BC5B97300063773 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A8CC0D71BC5B97300063773 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A8CC0D81BC5B97300063773 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A8CC0DC1BC5B97300063773 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A8CC0DD1BC5B97300063773 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A8CC0EB1BC5B97300063773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A8CC0EC1BC5B97300063773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A8CC0EE1BC5B97300063773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/danielriley/Documents/go/src/github.com/scisci/gomobile-static-test/lib",
+				);
+				INFOPLIST_FILE = "gomobile-static-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		8A8CC0EF1BC5B97300063773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/danielriley/Documents/go/src/github.com/scisci/gomobile-static-test/lib",
+				);
+				INFOPLIST_FILE = "gomobile-static-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		8A8CC0F11BC5B97300063773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "gomobile-static-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gomobile-static-test.app/gomobile-static-test";
+			};
+			name = Debug;
+		};
+		8A8CC0F21BC5B97300063773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "gomobile-static-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gomobile-static-test.app/gomobile-static-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A8CC0C91BC5B97300063773 /* Build configuration list for PBXProject "gomobile-static-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8CC0EB1BC5B97300063773 /* Debug */,
+				8A8CC0EC1BC5B97300063773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A8CC0ED1BC5B97300063773 /* Build configuration list for PBXNativeTarget "gomobile-static-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8CC0EE1BC5B97300063773 /* Debug */,
+				8A8CC0EF1BC5B97300063773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A8CC0F01BC5B97300063773 /* Build configuration list for PBXNativeTarget "gomobile-static-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8CC0F11BC5B97300063773 /* Debug */,
+				8A8CC0F21BC5B97300063773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A8CC0C61BC5B97300063773 /* Project object */;
+}
