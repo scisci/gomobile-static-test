@@ -1,0 +1,1 @@
+# gomobile-static-test
