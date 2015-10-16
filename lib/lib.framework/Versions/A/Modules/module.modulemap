@@ -1,5 +1,4 @@
-framework module Lib {
-  umbrella header "Lib.h"
-  export *
-  module * { export * }
+framework module "Lib" {
+    header "Lib.h"
+    export *
 }
